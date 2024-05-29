@@ -1,6 +1,6 @@
 body {
-	background-color: rgb(#ed8f5e);
 	font-size: 20pt;
+	background-color: rgb(#ed8f5e);
 }
 			
 .topnav {
@@ -19,15 +19,16 @@ body {
   text-decoration: none;
   font-size: 17px;
 }
+.topnav #the_title:hover {
+  background-color:  #ADBBDA;
+}
 
 .topnav a:hover {
   background-color: rgb(69, 85, 178);
   color: white;
 }
 
-.topnav #the_title:hover {
-  background-color:  #ADBBDA;
-}
+
 .topnav a.active {
   background-color: #4CAF50;
   color: white;
